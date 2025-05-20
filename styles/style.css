@@ -61,10 +61,9 @@ body {
 }
 
 .result__video-container {
-  margin-top: -26px;
   position: relative;
   width: 711px;
-  height: 386px;
+  height: 360px;
 }
 
 .result__video {
@@ -189,12 +188,13 @@ body {
   grid-area: content__details;
   align-items: end;
   width: 100%;
+  margin-bottom: 239px;
 }
 
 .title {
   margin-top: 133px;
   margin-bottom: 26px;
-  font-family: 'Oswald', Arial, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -207,7 +207,7 @@ body {
 
 .content__list-container {
   position: relative;
-  height: 534px;
+  height: 298px;
   overflow-y: auto;
 }
 
@@ -264,8 +264,7 @@ body {
 .content__video-card-title {
   margin-bottom: 6px;
   overflow: hidden;
-  line-height: 1;
-  font-family: 'Oswald', Arial, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
