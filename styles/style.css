@@ -50,7 +50,7 @@ body {
   grid-template-columns: 711px 399px;
   grid-template-areas: 'result content__details';
   justify-content: center;
-  align-items: center;
+  align-items: end;
   column-gap: 30px;
   width: 1140px;
   margin: 0 auto;
@@ -63,7 +63,7 @@ body {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 360px;
+  height: 386px;
 }
 
 .result__video {
@@ -188,11 +188,9 @@ body {
   grid-area: content__details;
   align-items: end;
   width: 100%;
-  margin-bottom: 239px;
 }
 
 .title {
-  margin-top: 133px;
   margin-bottom: 26px;
   font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
